@@ -35,43 +35,26 @@ text-align: center;
 text-transform: capitalize;
 } 
 
-td.td1.table_header:nth-child(1), td.td2.table_header:nth-child(1){
-width:5%
-}
-td.td1.table_header:nth-child(2), td.td2.table_header:nth-child(2){
-width:65%
-}
-td.td1.table_header:nth-child(3), td.td2.table_header:nth-child(3){
-width:5%
-}
-td.td1.table_header:nth-child(4), td.td2.table_header:nth-child(4){
-width:10%
-}
-td.td1.table_header:nth-child(5), td.td2.table_header:nth-child(5){
-width:10%
-}
-td.td1.table_header:nth-child(6), td.td2.table_header:nth-child(6){
-	
+/* shrink the Tags column */
+td.td1:nth-child(6), td.td2:nth-child(6), td.table_header:nth-child(6){
+  width:10%;
 }
 
 table{
 width: 75%;
 margin-left: 12.5%;
 margin-right: 12.5%;
+background-color:rgba(150,200,255,0.5);
+}
+
+td,th,table{
+border: 1px solid white;
+border-collapse:collapse;
+padding:2px;
+
 }
 
 .header_title{
-border-color: #FFFFFF;
 font-size: 200%;
-border-width: 1px 1px 1px 1px;
-border-style: solid;
-padding: 2px;
-background-color:rgba(150,200,255,0.5);
 }
 
-.td1, .td2, .table_header, .status_not_selected, .status_selected{
-border-width: 1px 1px 1px 1px;
-border-style: solid;
-padding: 2px;
-background-color:rgba(150,200,255,0.5);
-}
